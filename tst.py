@@ -1,9 +1,10 @@
 import gmpy2
 import time
 start=time.time()
-print("negative")
-t = 0x8a2aafbea5e06ccb19ec02904c3904d085074a0e734acab984a64d0cfc1d24dc*3*7*11*13*17*19*23*29*31*37*41
-for i in range(2,10**9):
+print("negative","1")
+t = 0xe5c8de231c0a0d1868a963f277a504e60d0419444b384f7ac18c081a84c2c890*5*7*11*13*17*19*23*29*31*37*41*43*47
+for r in range(2,10**9):
+  i =8*r+1
   h=t*i-1
   p=2*t*i-1
   q=4*t*i-1
